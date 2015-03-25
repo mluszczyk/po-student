@@ -11,3 +11,4 @@ This is what appears in console:
     javac -Xlint -Werror main.java
     java -ea Main
     Jan Kowalski, nr ind. 93452, rok 3, Programowanie Obiektowe, Analiza Matematyczna
+    Naj Ikslawok, nr ind. 234234, rok 5, Programowanie Obiektowe

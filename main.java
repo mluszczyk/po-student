@@ -15,5 +15,10 @@ class Main {
         assert !wynik;
         student.dodajPrzedmiot("Analiza Matematyczna");
         System.out.println(student.toString());
+
+        Student inny = new Student("Naj", "Ikslawok", "234234", 5);
+        System.out.println(inny.toString());
+        boolean byłoPO = inny.usuńPrzedmiot("Programowanie Obiektowe");
+        assert byłoPO;
     }
 }
