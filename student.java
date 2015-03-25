@@ -55,7 +55,7 @@ class Student {
     }
 
     public String imięNaziwsko() {
-        return String.format("%1 %2", imię, nazwisko);
+        return String.format("%s %s", imię, nazwisko);
     }
 
     public String toString() {
@@ -66,7 +66,7 @@ class Student {
             }
             przedmioty +=  przedmiot;
         }
-        return String.format("%1, nr ind. %2, rok %3, %4", imięNaziwsko(),
+        return String.format("%s, nr ind. %s, rok %d, %s", imięNaziwsko(),
             numerIndeksu, rok, przedmioty);
     }
 }
