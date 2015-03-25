@@ -1,7 +1,7 @@
 # Class Student
 Excercise for objective programming course.
 
-To see the output you can just compile and run:
+You can make use of included Makefile to compile and run:
 
     make run
 
